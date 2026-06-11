@@ -1,0 +1,20 @@
+# ==== 系统 / IDE 通用忽略 ====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==== 编辑器 ====
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==== 临时文件 ====
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.log
+
+# 各项目有自己的 .gitignore 定义项目级忽略规则

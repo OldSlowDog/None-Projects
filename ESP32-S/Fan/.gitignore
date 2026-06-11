@@ -1,0 +1,52 @@
+# ==== Arduino / ESP32 编译产物 ====
+*.o
+*.elf
+*.hex
+*.bin
+*.eep
+*.ino.bin
+*.ino.elf
+*.ino.hex
+build/
+build-*/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ==== PlatformIO ====
+.pio/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# ==== 临时文件 / 系统文件 ====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==== IDE / 编辑器 ====
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==== 调试 / 日志 ====
+*.log
+*.dmp
+*.stackdump
+core.*
+
+# ==== 3D 软件临时文件 ====
+*.stp.bak
+*.step.bak
+*.autosave
+*.bak$
+
+# ==== 大文件追踪提示 ====
+# 注：STP/STEP 模型文件默认纳入版本控制
